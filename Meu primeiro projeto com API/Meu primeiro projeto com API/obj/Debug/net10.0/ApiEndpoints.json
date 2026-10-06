@@ -1,0 +1,217 @@
+[
+  {
+    "ContainingType": "ProjetoCadastroLogin.Controllers.Aula8Controller",
+    "Method": "OlaMundo",
+    "RelativePath": "api/aula8/olaMundo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjetoCadastroLogin.Controllers.Aula8Controller",
+    "Method": "OlaMundoPersonalizado",
+    "RelativePath": "api/aula8/olaMundoPersonalizado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjetoCadastroLogin.Controllers.Aula8Controller",
+    "Method": "Somar",
+    "RelativePath": "api/aula8/somar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "num1",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "num2",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Meu_primeiro_projeto_com_API.Controllers.usuarioControllers",
+    "Method": "cadastro",
+    "RelativePath": "api/usuario/cadastro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Meu_primeiro_projeto_com_API.Models.cadastroRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Meu_primeiro_projeto_com_API.Models.cadastroResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Meu_primeiro_projeto_com_API.Controllers.usuarioControllers",
+    "Method": "esqueceuSenha",
+    "RelativePath": "api/usuario/esqueceuSenha",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Meu_primeiro_projeto_com_API.Models.esqueceuSenhaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Meu_primeiro_projeto_com_API.Models.esqueceuSenhaResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Meu_primeiro_projeto_com_API.Controllers.usuarioControllers",
+    "Method": "login",
+    "RelativePath": "api/usuario/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Meu_primeiro_projeto_com_API.Models.loginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Meu_primeiro_projeto_com_API.Models.loginResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Meu_primeiro_projeto_com_API.Controllers.veiculoController",
+    "Method": "obterCarro",
+    "RelativePath": "api/veiculo/obterCarro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Meu_primeiro_projeto_com_API.Models.Carro",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Meu_primeiro_projeto_com_API.Controllers.veiculoController",
+    "Method": "obterMoto",
+    "RelativePath": "api/veiculo/obterMoto",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Meu_primeiro_projeto_com_API.Models.Moto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Meu_primeiro_projeto_com_API.Controllers.veiculoController",
+    "Method": "obterVeiculo",
+    "RelativePath": "api/veiculo/obterVeiculo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Meu_primeiro_projeto_com_API.Models.Veiculo",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
